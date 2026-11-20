@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net11.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>FileMover</AssemblyName>
+    <RootNamespace>FileMover</RootNamespace>
+    <!-- exe 自身的图标：项目目录里有 app.ico 就使用 -->
+    <ApplicationIcon Condition="Exists('app.ico')">app.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- 把 app.ico 复制到输出目录（和 exe、settings.json 同一目录），运行时窗口图标从这里读取 -->
+    <None Update="app.ico" CopyToOutputDirectory="PreserveNewest" Condition="Exists('app.ico')" />
+  </ItemGroup>
+
+</Project>
