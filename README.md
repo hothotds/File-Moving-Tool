@@ -1,8 +1,8 @@
 # FileMover（文件移动工具）
 
 一款基于 .NET / WPF 开发的轻量级 Windows 桌面文件批量移动工具。支持拖拽视频、文件和文件夹，实时预览系统缩略图，选定目标位置后一键快速归档移动。
-<img width="986" height="714" alt="PixPin_2026-11-20_21-23-30" src="https://github.com/user-attachments/assets/d6f1f1ee-92e9-4492-82e0-efe27cf31724" />
-
+### 窗口预览
+<img width="986" height="714" alt="PixPin_2026-11-20_21-26-12" src="https://github.com/user-attachments/assets/7921b753-93c4-4cea-9907-3aca9e089f85" />
 ## ✨ 核心功能
 
 - **拖拽即用**：支持直接从资源管理器拖入多个文件、视频或整个文件夹，也可通过顶部按钮批量添加。
@@ -16,8 +16,8 @@
 - **自定义图标**：支持在程序同级目录放置 `app.ico` 自动替换窗口与任务栏图标。
 
 ## 🖥️ 界面与操作
-<img width="986" height="714" alt="PixPin_2026-11-20_21-26-12" src="https://github.com/user-attachments/assets/7921b753-93c4-4cea-9907-3aca9e089f85" />
 
+<img width="986" height="714" alt="PixPin_2026-11-20_21-23-30" src="https://github.com/user-attachments/assets/d6f1f1ee-92e9-4492-82e0-efe27cf31724" />
 1. **添加项目**：将视频、文件或文件夹拖入上方拖放区，或点击 **「＋ 添加视频/文件」** / **「＋ 添加文件夹」**。
    - 支持按 `Delete` 键移除选中项，`Ctrl + A` 全选。
 2. **设置输出位置**：在底部 **「输出位置」** 输入路径，或点击 **「浏览…」** 选择目标文件夹。
