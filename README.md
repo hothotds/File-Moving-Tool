@@ -33,13 +33,13 @@
 ### 环境要求
 
 - Windows 10 / 11
-- [.NET 11 SDK](https://dotnet.microsoft.com/)（支持 Windows Desktop / WPF）
+- [.NET 8 SDK](https://dotnet.microsoft.com/)（支持 Windows Desktop / WPF）
 
 ## 📁 目录说明
 
 ```text
 FileMover/
-├── FileMover.csproj   # 项目配置文件（WPF / net11.0-windows）
+├── FileMover.csproj   # 项目配置文件（WPF / net8.0-windows）
 ├── Program.cs         # 核心逻辑与内嵌 XAML 界面
 ├── app.ico            # （可选）自定义应用程序与窗口图标
 └── settings.json      # （运行时自动生成）本地配置缓存
